@@ -1,0 +1,43 @@
+html {
+    font-family: "Comic Sans MS", "Comic Sans", Arial, sans-serif;
+  }
+  
+  /* Question 2: Headings in Papyrus + purple */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: Papyrus, fantasy;
+    color: purple;
+  }
+  
+  /* Question 3: Style navigation bar */
+  ul {
+    list-style-type: none; /* remove bullets */
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    text-align: center; /* center the nav links horizontally */
+  }
+  
+  ul li {
+    display: inline-block;
+    margin: 0;
+    padding: 16px;
+  }
+  
+  ul li a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* Question 4: Hover effect */
+  ul li a:hover {
+    background-color: #AAA;
+  }
+  
+  /* Question 5: Footer formatting */
+  footer {
+    background-color: #DDD;
+    color: #555;
+    text-align: center;
+    padding: 16px;
+  }
+  
